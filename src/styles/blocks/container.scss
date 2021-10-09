@@ -13,11 +13,10 @@
   }
 
   &-shop {
-    position: relative;
     max-width: 1280px;
-
-    @include onDesktop {
-      padding-left: 170px;
-    }
   }
+}
+
+.wrapper {
+  margin-left: 5px;
 }

@@ -1,4 +1,13 @@
 .shop {
+
+  &__wrapper {
+    display: flex;
+  }
+
+  &__side-text {
+    margin-top: 180px;
+  }
+  
   
   &__title {
     text-align: center;
@@ -6,10 +15,6 @@
     @include onIpad {
       text-align: left;
     }
-  }
-
-  @include onDesktop {
-    padding-left: 60px;
   }
 
   &__menu {
@@ -57,10 +62,8 @@
     }
   }
 
-  &__side-text {
-    position: absolute;
-    top: 210px;
-    left: 70px;
+  &__bottom {
+    height: 200px;
   }
 
   &__button-wrapper {
@@ -69,5 +72,4 @@
     grid-row: 5;
     justify-content: center;
   }
-
 }
